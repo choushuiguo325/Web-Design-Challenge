@@ -1,11 +1,14 @@
-
-
 .navbar-custom { 
-    background-color: #4baca4; 
+    background-color: white; 
+    
 } 
 .navbar-brand {
     font-family: 'Times New Roman';
     color:white !important;
+    background-color: #4baca4 !important;
+    padding: 20px;
+    margin-left:0px;
+    font-weight: bold;
 }
 .back {
     background-color:#D3D3D3 ;
@@ -15,7 +18,7 @@
 .title {
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-right: 20px;
     color: #4baca4;
     font-weight: bold;
@@ -32,14 +35,14 @@ p {
 
 
 .box-set {
-    position: relative;
+    position:relative;
     height: 100%;
     background: #D3D3D3;
   }
 
 
 .box-1 {
-    /* position: absolute; */
+    /* position: relative; */
     top:20px;
     bottom:20px;
     width:250px;
@@ -54,14 +57,30 @@ p {
     bottom:20px;
     width:200px;
     left:30px;
-    height: 100%;
+    height:100%;
     background-color: white;
 }
 
+.box-data {
+    position:relative;
+    top:20px;
+    width:250px;
+    left:10px;
+    background-color: white;
+}
+
+.box-comparison {
+    position:relative;
+    top:20px;
+    width:1000px;
+    left:30px;
+    background-color: white;
+}
 
 .annotation {
-    font-size: 24pt;
+    font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
+    color:black;
 
 }
 
@@ -76,6 +95,17 @@ p {
     height:150px;
 }
 
+.mediumfigure {
+    
+    display: block;
+    margin-top: 1em;
+    margin-bottom:1em;
+    margin-left: 8px;
+    margin-right: 40px;
+    width:250px;
+    height:250px;
+}
+
 .largefigure {
     display: block;
     margin-top: 1em;
@@ -87,9 +117,13 @@ p {
     float:left;
 }
 
-.figureTitle {
-    font-size: 32pt;
-    color: #4baca4;
+.figuretitle {
+    text-align: center;
+    font-size: 16pt;
+    font-family:'Times New Roman';
+    font-weight: bold;
+    color: #4baca4 !important;
+
 
 }
 
@@ -106,7 +140,20 @@ p {
     
   }
 
-@media (max-width:480px){
+
+@media (max-width:991px){
+    
+    .navbar-brand {
+        font-family: 'Times New Roman';
+        color:white !important;
+    }
+
+    .navbar-custom { 
+        background-color:#4baca4; 
+        
+    } 
+
+
 
 
 
