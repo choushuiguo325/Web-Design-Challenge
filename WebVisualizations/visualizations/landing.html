@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Weather Visualizations</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="../Resources/style.css">
+    <link rel="stylesheet" href="../Resources/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
@@ -22,17 +22,17 @@
                     Plot
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Max Temperature</a>
-                        <a class="dropdown-item" href="#">Humidity</a>
-                        <a class="dropdown-item" href="#">Cloudiness</a>
-                        <a class="dropdown-item" href="#">Wind Speed</a>
+                        <a class="dropdown-item" href="Max_Temperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Comparision</a>
+                    <a class="nav-link" href="comparision.html">Comparision</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Data</a>
+                    <a class="nav-link" href="data.html">Data</a>
                 </li>
             </ul>
         </div>
@@ -40,33 +40,45 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 box-1">
+            <div class="col-lg-8 box-1" >
                 <h1 class="title">Summary: Latitude vs. X</h1>
                 <hr>
-                <img src="../assets/Latitude_vs_Max_Temperature.png" class="largefigure">
-                <p>The purpose of this project was to analyze how weather cahnges as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWatherMap API to assemble a dataset on over 500 cities.
-                </p>
-                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latituede. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlation witnessed.
-                </p>
+                <div class="image-wrapper float-left pr-3">
+                    <img src="../assets/Latitude_vs_Max_Temperature.png"style="width:300px;" >
+                </div>
+                <div class="single-post-content-wrapper p-3">
+                    <p>The purpose of this project was to analyze how weather cahnges as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWatherMap API to assemble a dataset on over 500 cities.
+                    </p>
+                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latituede. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlation witnessed.
+                    </p>
+                </div>
             </div>
-
+            <!-- style="background-color:white;top:20px;left:20px -->
             <div class="col-lg-4 box-2">
                 <h1 class="title">Visualizations</h1>
                 <hr>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-sm-3">
-                            <img src="../assets/Latitude_vs_Max_Temperature.png" class=smallfigure >
+                        <div class="col-lg-6 col-sm-3">
+                            <figure class="text-center">
+                                <img src="../assets/Latitude_vs_Max_Temperature.png" class="figure-img img-fluid rounded">
+                              </figure>
                         </div>
-                        <div class="col-md-6 col-sm-3">
-                            <img src="../assets/Latitude_vs_Humidity.png" class=smallfigure >
+                        <div class="col-lg-6 col-sm-3">
+                            <figure class="text-center">
+                                <img src="../assets/Latitude_vs_Humidity.png" class="figure-img img-fluid rounded">
+                              </figure>
                         </div>
 
-                        <div class="col-md-6 col-sm-3">
-                            <img src="../assets/Latitude_vs_Cloudiness.png" class=smallfigure>
+                        <div class="col-lg-6 col-sm-3">
+                            <figure class="text-center">
+                                <img src="../assets/Latitude_vs_Cloudiness.png" class="figure-img img-fluid rounded">
+                              </figure>
                         </div>
-                        <div class="col-md-6 col-sm-3">
-                            <img src="../assets/Latitude_vs_Wind_Speed.png" class=smallfigure>
+                        <div class="col-lg-6 col-sm-3">
+                            <figure class="text-center">
+                                <img src="../assets/Latitude_vs_Wind_Speed.png" class="figure-img img-fluid rounded">
+                              </figure>
                         </div>
                     </div>
                 </div>

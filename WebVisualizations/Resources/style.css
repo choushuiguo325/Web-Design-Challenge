@@ -9,6 +9,8 @@
     padding: 20px;
     margin-left:0px;
     font-weight: bold;
+    /* font-size: 22pt !important;
+    margin-left:0px !important; */
 }
 .back {
     background-color:#D3D3D3 ;
@@ -29,53 +31,28 @@
 
 p {
     font-size: 32pt;
-    color: silver;
-    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-family: Helvetica;
 }
 
-
-.box-set {
-    position:relative;
-    height: 100%;
-    background: #D3D3D3;
-  }
-
+.foo {
+    outline: 2px solid#4baca4;
+}
 
 .box-1 {
-    /* position: relative; */
-    top:20px;
-    bottom:20px;
-    width:250px;
-    left:10px;
-    height: 100%;
+    top:50px;
+    height: 90%;
     background-color: white;
 }
 
 .box-2 {
     position:relative;
-    top:20px;
-    bottom:20px;
-    width:200px;
+    top:50px;
     left:30px;
     height:100%;
     background-color: white;
 }
 
-.box-data {
-    position:relative;
-    top:20px;
-    width:250px;
-    left:10px;
-    background-color: white;
-}
-
-.box-comparison {
-    position:relative;
-    top:20px;
-    width:1000px;
-    left:30px;
-    background-color: white;
-}
 
 .annotation {
     font-size: 12pt;
@@ -152,6 +129,10 @@ p {
         background-color:#4baca4; 
         
     } 
+
+    .box-2 {
+        left: 0px;
+    }
 
 
 

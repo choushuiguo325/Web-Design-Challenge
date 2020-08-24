@@ -2,7 +2,7 @@
 <html lan="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>Comparision: Latitude vs X</title>
+    <title>Visualization:Wind Speed</title>
     <link rel="stylesheet" href="../Resources/style.css">
     <link rel="stylesheet" href="../Resources/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -38,56 +38,55 @@
         </div>
     </nav>
 
-    <div class="container" style="background-color: white;">
+    <div class="container">
         <div class="row">
-            <div class="col">
-                <h1 class="title">Comparision: Latitude vs X</h1>
+            <div class="col-lg-8 box-1" >
+                <h1 class="title">Wind Speed</h1>
                 <hr>
-                <p class="annotation">
-                    Click any plot to get an in-depth analysis.
-                </p>
-                </br>
-
-            </div>
-        </div>
-        
-        <div class="row ">
-            <div class="col-lg-6 justify-content-center">
                 <figure class="text-center">
-                    <figcaption class="figuretitle text-center ">vs.Max Temperature</figcaption>
-                    <img src="../assets/Latitude_vs_Max_Temperature.png" class="figure-img img-fluid rounded">
-                  </figure>
-
-            </div>
-            <div class="col-lg-6">
-                <figure class="text-center">
-                    <figcaption class="figuretitle text-center ">vs. Humidity</figcaption>
-                    <img src="../assets/Latitude_vs_Humidity.png" class="figure-img img-fluid rounded">
-                  </figure>
-            </div>
-            <div class="col-lg-6">
-                <figure class="text-center">
-                    <figcaption class="figuretitle text-center ">vs.Cloudiness</figcaption>
-                    <img src="../assets/Latitude_vs_Cloudiness.png" class="figure-img img-fluid rounded">
-                  </figure>
-            </div>
-            <div class="col-lg-6">
-                <figure class="text-center">
-                    <figcaption class="figuretitle text-center ">vs.Wind Speed</figcaption>
                     <img src="../assets/Latitude_vs_Wind_Speed.png" class="figure-img img-fluid rounded">
-                  </figure>
+                </figure>
+                <div class="single-post-content-wrapper p-3">
+                    <p>In general, the wind speed ranges from 1 to 4 mph no matter what the lattitude is. Thus, there are no significant relationships between lattitude and wind speed.</p>
+                </div>
             </div>
-        </div>
+            <div class="col-lg-4 box-2">
+                <h1 class="title">Visualizations</h1>
+                <hr>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-3">
+                            <figure class="text-center">
+                                <img src="../assets/Latitude_vs_Max_Temperature.png" class="figure-img img-fluid rounded" >
+                            </figure>
+                        </div>
+                        <div class="col-lg-6 col-sm-3">
+                            <figure class="text-center">
+                                <img src="../assets/Latitude_vs_Humidity.png" class="figure-img img-fluid rounded">
+                            </figure>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-3">
+                            <figure class="text-center">
+                                <img src="../assets/Latitude_vs_Cloudiness.png" class="figure-img img-fluid rounded">
+                            </figure>
+                        </div>
+                        <div class="col-lg-6 col-sm-3">
+                            <figure class="text-center foo">
+                                <img src="../assets/Latitude_vs_Wind_Speed.png" class="figure-img img-fluid rounded">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
     </div>
-
-
 
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
