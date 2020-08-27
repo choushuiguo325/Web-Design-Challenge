@@ -96,10 +96,15 @@ p {
 
     .box-2 {
         left: 0px;
+        top:0px;
     }
 
     .box {
         margin-top:0px;
+    }
+
+    .box-1 {
+        top:0px;
     }
 
 
