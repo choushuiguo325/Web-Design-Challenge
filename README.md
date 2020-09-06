@@ -21,6 +21,7 @@ A paragraph describing the plot and its significance.
 Contains all of the visualizations on the same page so we can easily visually compare them.
 Uses a Bootstrap grid for the visualizations.
 
-- A "Data" page that:
+- A "Data" page that: 
+Displays a responsive table containing the data used in the visualizations.
 
 All the pages are responsive to screen size and use a navbar to allow navigations between pages.
